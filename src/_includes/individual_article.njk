@@ -1,0 +1,18 @@
+---
+layout: homepagelayout.njk 
+---
+
+<body class='items-section'>
+    <section class="individual-article">
+        <h3 class="article-title">{{ title }}</h3>
+        <figure class="article-image">
+            <img src="{{ image }}" alt="">
+            <figcaption>{{ imageCaption }}</figcaption>
+        </figure>
+
+        <article>
+            <p>{{ content | safe }}</p>
+        </article>
+        
+    </section>
+</body>

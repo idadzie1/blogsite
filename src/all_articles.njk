@@ -1,0 +1,35 @@
+---
+title: Blog page
+layout: homepagelayout.njk
+---
+<body class="all-articles">
+    <section class="articles-container">
+        <h2>Blog Articles</h2>
+        <div class="articles">
+
+        {%- for post in collections.post -%}
+
+            <article class='item'>
+                <figure>
+                    <img class='image' src="{{ post.data.image }}" alt="sample photo">
+                    <figcaption>{{post.data.imageCaption}}</figcaption>
+                </figure>
+                <div class="details">
+                    <div class="article-description">
+                        <span class='article-author'>{{post.data.author}}</span> 
+                        <span class='date-time'>Posted on {{ post.date}}</span>
+                        <h4 class='title'>{{ post.data.title}}</h4>
+                        <p class='para'>{{ post.data.shortDesc}}</p>
+                    </div>
+                    <div class="buttons">
+                        <a href="{{post.url}}" class='btn1'>Read More</a> 
+                    </div> 
+                </div>               
+            </article>
+            <hr>
+
+        {%- endfor %}
+            
+        </div>
+    </section>
+</body>

@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;        
+}
+
+
+html{ 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+nav{
+    position:fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 3rem;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    z-index: 2;
+}
+
+.nav-container {
+    width: 90%;
+    height: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 2;    */
+}
+
+.logo-image{
+
+}
+
+.logo-image img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+
+.list{
+    display: flex;
+    gap: 2rem;
+}
+
+.list li{
+    position: relative;
+    width:fit-content;
+    height: 4rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list a{
+    color: #fff;
+}
+
+.list li.active:before{
+   position: absolute; 
+   content: "";
+   height: 3px;
+   width: 100%;
+   bottom: 1.4rem;
+   background: #F87B1B;
+   
+}
+
+section.hero{   
+    width: 100%;
+    position: relative;  
+}
+
+.section-image{
+    width: 100;
+    
+}
+
+.section-image img{
+    width: 100%;    
+    height:40rem;
+    object-fit: cover;
+}
+
+
+.cto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.small-test-mesaging{
+    font-size: small;
+    color: yellow;
+}
+
+.banner-message{    
+    font-size: 3rem;
+    color: #fff;    
+    text-align: center;
+}
+
+.mini-banner{
+    font-size: larger;
+    color: yellow;
+    text-align: center;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn1, .btn2{
+    width: 6rem;
+    height: 2rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    cursor: pointer; 
+}
+
+.btn1{
+    background-color: yellow;
+    background-color: #628141;
+    color: #fff;
+}
+
+.btn2{
+    color: #fff;
+}
+
+
+
+/* ================ Blog Page ======================= */
+
+body.all-articles{
+    background-color: #A1BC98;
+}
+
+.articles-container{
+    margin-top: 4rem;
+    width: 100%;
+   
+}
+
+
+.articles-container h2{
+    width: 100%;    
+    text-align: center;   
+}
+
+.articles{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.item{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    gap: 3rem; 
+    
+}
+
+figure{
+    width: 15rem;
+    height: 15rem;
+}
+
+img.image{
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para{
+    margin-top: 0.5rem;
+}
+
+.details .buttons{
+    margin-top: 1rem;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+.article-author, .date-time{
+    font-size: smaller;
+}
+
+                     
+figcaption{
+    width: 100%;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+/* ================= individual article page ==================== */
+
+body.items-section{
+    background-color: #A1BC98;
+}
+
+section.individual-article{
+    margin-top: 3rem;
+    width: 90%;
+    margin: auto;
+    
+}
+
+h3.article-title{
+    margin-top: 4rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+figure.article-image{
+    width: 20rem;
+    height: 20rem;
+    margin: auto;      
+
+}
+
+figure.article-image img{    
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    object-fit: cover;
+}
+
+
+article{
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p{
+    text-align: justify;
+    padding: 1rem;
+}
+
+
+figure.article-image figcaption{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
