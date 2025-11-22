@@ -282,6 +282,17 @@ figure.article-image figcaption{
 }
 
 
+/* ================================== Pages ================= */
+
+body.pages{
+    background-color: #A1BC98;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+
 
 
 
