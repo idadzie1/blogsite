@@ -1,6 +1,6 @@
 ---
 title: My Test Blogs
-image: asset/blog/reactlogo.png
+image: asset/blog/isulogo5.jpg
 imageCaption: Test Image
 author: King Mus
 tags:
