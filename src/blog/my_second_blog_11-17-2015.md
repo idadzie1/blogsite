@@ -1,6 +1,6 @@
 ---
 title: my second blog post
-image: /asset/background2.jpg
+image: /static/images/uploads/background2.jpg
 imageCaption: A background Image
 author: Yaw Asamoah
 date-time: 11/17/2025 @ 9:03 AM
