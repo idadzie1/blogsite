@@ -1,6 +1,6 @@
 ---
 title: My first blog post
-image: /static/images/uploads/background1.jpg
+image: /images/uploads/background1.jpg
 imageCaption: This is my image
 author: Isu Dadzie
 date-time: 11/16/2025 @ 3:45 PM

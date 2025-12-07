@@ -1,6 +1,6 @@
 ---
 title: My fouth blog post
-image: /static/images/uploads/background4.jpg
+image: /images/uploads/background4.jpg
 imageCaption: Yet another background Image
 author: Mustapha Isu
 date-time: 11/17/2025 @ 9:10 AM

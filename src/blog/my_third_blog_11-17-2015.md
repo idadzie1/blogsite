@@ -1,6 +1,6 @@
 ---
 title: My third blog post
-image: /static/images/uploads/background3.jpg
+image: /images/uploads/background3.jpg
 imageCaption: Another background Image
 author: King Wise
 date-time: 11/17/2025 @ 9:08 AM
