@@ -1,6 +1,6 @@
 ---
 title: Test Blog Post
-image: /images/uploads/isulogo5.jpg
+image: /static/images/uploads/isulogo5.jpg
 imageCaption: Interesting image
 author: Isu Dadzie
 tags:
